@@ -4,7 +4,7 @@ import NotFound from './pages/NotFound';
 import { createBrowserRouter, RouterProvider } from 'react-router'
 
 const routs = createBrowserRouter([
-  {path:'/', element: <Home />},
+  {path:'/UT_react_blog', element: <Home />},
   {path:'*', element: <NotFound />},
 ])
 
