@@ -15,7 +15,7 @@ const Header = () => {
     <Navbar>
       <Container>
         <Navbar.Brand>
-          <Link to={"/UT_react_blog"} className='link'>
+          <Link to={"/UT_react_blog/"} className='link'>
             <img
               alt=""
               src={logo}
@@ -26,7 +26,7 @@ const Header = () => {
             UT english blog
           </Link>
         </Navbar.Brand>
-        {location.pathname === "/UT_react_blog" ? (
+        {location.pathname === "/UT_react_blog/" ? (
           <Link to={"/UT_react_blog/members"}>
             <Button variant="danger">
               <IoAccessibility /> Members
