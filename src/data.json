@@ -1,23 +1,27 @@
 [
     {
         "id": 1,
-        "nombre": "Camiseta",
-        "precio": 15.99,
-        "stock": 50,
+        "title": "DeepSeek: The Chinese AI app that has the world talking",
+        "subtitle": "Technology",
+        "text": "DeepSeek, a Chinese artificial intelligence (AI) startup, made headlines worldwide after it topped app download charts and caused US tech stocks to sink.\n",
+        "text2": "In January, it released its latest model, DeepSeek R1, which it said rivalled technology developed by ChatGPT-maker OpenAI in its capabilities, while costing far less to create.",
+        "fecha": 50,
+        "img": "https://i.postimg.cc/25mpMRX6/deepseek.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Pantalón",
+        "subtitle": 29.99,
+        "text": "",
+        "fecha": 30,
         "img": "https://picsum.photos/700/500"
     },
     {
         "id": 2,
-        "nombre": "Pantalón",
-        "precio": 29.99,
-        "stock": 30,
-        "img": "https://picsum.photos/700/500"
-    },
-    {
-        "id": 2,
-        "nombre": "Pantalón",
-        "precio": 29.99,
-        "stock": 30,
+        "title": "Pantalón",
+        "subtitle": 29.99,
+        "text": "",
+        "fecha": 30,
         "img": "https://picsum.photos/700/500"
     }
 ]
