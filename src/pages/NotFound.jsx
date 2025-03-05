@@ -5,7 +5,7 @@ const NotFound = () => {
     return (
         <div>
             <h1>Erroor</h1>
-            <Link to={"/"}>
+            <Link to={"/UT_react_blog"}>
                 <button>Volver</button>
             </Link>
         </div>
