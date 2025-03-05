@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nombre": "Camiseta",
+        "precio": 15.99,
+        "stock": 50,
+        "img": "https://picsum.photos/700/500"
+    },
+    {
+        "id": 2,
+        "nombre": "Pantalón",
+        "precio": 29.99,
+        "stock": 30,
+        "img": "https://picsum.photos/700/500"
+    },
+    {
+        "id": 2,
+        "nombre": "Pantalón",
+        "precio": 29.99,
+        "stock": 30,
+        "img": "https://picsum.photos/700/500"
+    }
+]

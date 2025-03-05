@@ -1,15 +1,17 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 
 
 const MemberCard = () => {
   return (
     <div>
+      <Container>
         <Row>
         <Col>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px100" />
+            <Card.Img variant="top" src="https://picsum.photos/100/100" />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
               <Card.Text>
@@ -22,7 +24,7 @@ const MemberCard = () => {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img variant="top" src="https://picsum.photos/100/100" />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
               <Card.Text>
@@ -35,7 +37,7 @@ const MemberCard = () => {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img variant="top" src="https://picsum.photos/100/100" />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
               <Card.Text>
@@ -47,6 +49,7 @@ const MemberCard = () => {
           </Card>
         </Col>
     </Row>
+    </Container>
     </div>
   )
 }

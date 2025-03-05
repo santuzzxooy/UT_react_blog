@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router'
-import './Header.css'
+import './style.css'
 import logo from './logo.svg'
 
 const Header = () => {
