@@ -20,7 +20,7 @@ const Header = () => {
           TOLIMA UNIVERSITY english blog
         </Navbar.Brand>
         <Link to={"/UT_react_blog/members"}>
-          <Button variant="outline-danger">Members</Button>
+          <Button variant="danger">Members</Button>
         </Link>
       </Container>
     </Navbar>
