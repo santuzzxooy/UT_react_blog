@@ -1,8 +1,12 @@
-import React from 'react'
+import Header from '../components/Header';
+import MemberCard from '../components/MemberCard';
 
 const Members = () => {
   return (
-    <div>Members</div>
+    <div>
+      <Header />
+      <MemberCard />
+    </div>
   )
 }
 

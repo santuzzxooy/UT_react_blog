@@ -3,21 +3,24 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router'
+import './Header.css'
 import logo from './logo.svg'
 
 const Header = () => {
   return (
     <Navbar>
       <Container>
-        <Navbar.Brand href="#home">
-          <img
-            alt=""
-            src={logo}
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-          />{' '}
-          TOLIMA UNIVERSITY english blog
+        <Navbar.Brand>
+          <Link to={"/UT_react_blog"} className='link'>
+            <img
+              alt=""
+              src={logo}
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />{' '}
+            UT english blog
+          </Link>
         </Navbar.Brand>
         <Link to={"/UT_react_blog/members"}>
           <Button variant="danger">Members</Button>

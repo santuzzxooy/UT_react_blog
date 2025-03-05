@@ -1,12 +1,11 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
-import './Content.css'
 
 const Content = () => {
     return (
-        <Container>
-            <Card className="text-center" style={{ width: '44rem' }}>
+        <Container className=''>
+            <Card className="text-center">
                 <Card.Header>Featured</Card.Header>
                 <Card.Body>
                     <Card.Title>Special title treatment</Card.Title>
