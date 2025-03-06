@@ -15,6 +15,7 @@ const Members = () => {
       <Container className='contenedor'>
         <Carrusel />
       </Container>
+      <Breadcrumb />
     </div>
   )
 }
