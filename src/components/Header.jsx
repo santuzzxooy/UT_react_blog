@@ -33,7 +33,7 @@ const Header = () => {
             </Button>
           </Link>
         ) : location.pathname === "/UT_react_blog/members" ? (
-          <Link to={"/UT_react_blog"}>
+          <Link to={"/UT_react_blog/"}>
             <Button variant="danger">
               <IoHomeSharp /> Go home</Button>
           </Link>
